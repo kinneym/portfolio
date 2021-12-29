@@ -22,20 +22,18 @@
 
         <!-- Hero section -->
         <section class="hero">
-            <div class="hero-subtitle">
-                <h4>Cool subtitle here!</h4>
-            </div>
+                <h4 class="hero-subtitle">Cool subtitle here!</h4>
         </section>
 
         <!-- Main content section -->
-        <section class="main-content">
+        <div class="main-content">
 
             <!-- "About Me" section -->
-            <article id="about-me" class="about-section">
-                <div class="section-title">
-                <h2>About Me</h2>
+            <section id="about-me" class="about-section">
+                <div class="title-container">
+                <h2 class="section-title">About Me</h2>
                 </div>
-                <div class="about-text border-left">
+                <div class="content-container">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis amet illo provident illum suscipit dolore obcaecati, placeat perspiciatis dicta voluptatum quaerat quia possimus sint molestias minima veniam corporis blanditiis quisquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, necessitatibus autem corporis nobis nesciunt blanditiis veritatis deleniti quos magni quis obcaecati nihil quo repellendus aliquid doloribus ex ratione quia placeat.
                     </p>
@@ -44,21 +42,72 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cupiditate aliquid at dolor, quidem doloremque facilis deleniti cumque, temporibus eos totam molestiae, fugit rerum saepe hic odit harum ex? Consequatur?
                     </p>
                 </div>
-            </article>
-        </section>
+            </section>
+        
 
         <!-- "Work" section -->
-        <section id="work">
-            <h2>Work</h2>
+        <section id="work" class="work-section">
+           <div class="title-container">
+               <h2 class="section-title">Work</h2>
+           </div>
+            <div class="content-container">
+                <article class="featured-work">
+                    <div class="feature-description">
+                        <h3 class="work-name">Surf Report</h3>
+                        <h4 class="work-stack">MERN Stack</h4>
+                    </div>
+                </article>
+                    <div class="flex-row">
+                        <article class="work-sample-one">
+                            <div class="work-sample-description">
+                                <h3 class="work-name">LED Wall</h3>
+                                <h4 class="work-stack">Node/IoT</h4>
+                            </div>
+                        </article>
 
+                        <article class="work-sample-two">
+                            <div class="work-sample-description">
+                                <h3 class="work-name">Calculator</h3>
+                                <h4 class="work-stack">React/JavaScript/CSS</h4>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="flex-row">
+                        <article class="work-sample-three">
+                            <div class="work-sample-description">
+                                <h3 class="work-name">Pastel Puzzels</h3>
+                                <h4 class="work-stack">MERN Stack</h4>
+                            </div>
+                        </article>
+                    
+                        <article class="work-sample-four">
+                            <div class="work-sample-description">
+                                <h3 class="work-name">Run Buddy</h3>
+                                <h4 class="work-stack">HTML/CSS</h4>
+                            </div>
+                        </article>
+                    </div>
         </section>
 
         <!-- Footer -->
-        <footer id="contact-me">
-            <h2>Contact Me</h2>
+        <footer id="contact-me" class="contact-section">
+            <div class="title-container">
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="footer-container">
+                <!-- Footer links -->
+                <ul>
+                    <li><a href="#">555.555.5555</a></li>
+                    <li><a href="#">michaelkinney.com</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Spotify</a></li>
+                </ul>
+            </div>
+            
 
         </footer>
         
-
+    </div>  
     </body>
 </html>

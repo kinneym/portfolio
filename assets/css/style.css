@@ -54,57 +54,154 @@ header nav ul li a {
     background: orange;
     width: 100%;
     height: 150px;
-    padding: 0 10px 0 0;
+    padding: 0 50px 16px 0;
     margin-bottom: 16px;
     display: flex;
-    justify-content: right;
-    flex-wrap: wrap;
+    justify-content: end;
     align-items: flex-end;
 }
 
 .hero-subtitle {
     background: #9ECACC;
     padding: 6px 10px;
-    margin-right: 40px;
-    margin-bottom: 15px;
     font-size: 26px;
     color: #31343C;
 }
 
-/* main-content section */
-.main-content {
-    padding: 10px 40px;
-}
-
 /* "About Me" section */
-.border-left {
-    border-left: 3px solid #485774;
-}
-
-.border-right {
-    border-right: 3px solid #485774;
-}
-
 .about-section {
     display: flex;
-    margin-bottom: 16px;
-}
-
-.about-text {
-    padding-left: 26px;
-    padding-bottom: 10px;
-}
-
-.about-text p {
-    font-size: 12px;
-    line-height: 1.5;
+    margin-bottom: 30px;
 }
 
 .section-title {
     padding-right: 10px;
-    font-size: 26px;
+    font-size: 36px;
     text-align: right;
     color: #485774
 }
 
+.title-container {
+    width: 25%;
+    padding-left: 60px;
+    border-right: 3px solid #485774; 
+}
+
+.content-container {
+    width: 75%;
+    margin-right: 50px;
+    padding-left: 26px;
+    padding-bottom: 10px;
+}
+
+.content-container p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* "Work" section */
+.work-section {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.featured-work {
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/laptop-code.jpg");
+    border: 3px solid #9ECACC;
+}
+
+.feature-description {
+    background-color: #9ECACC;
+    display: inline-block;
+    padding: 5px 8px;
+    position: relative;
+    top: 75%;
+    line-height: 1.5;
+}
+
+.work-stack {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.flex-row {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.work-sample-one {
+    width: 50%;
+    height: 120px;
+    background-color: blue;
+    margin-right: 5px;
+    border: 3px solid #9ECACC;
+}
+
+.work-sample-two {
+    width: 50%;
+    height: 120px;
+    background-color: blue;
+    margin-left: 5px;
+    border: 3px solid #9ECACC;
+}
+
+.work-sample-three {
+    width: 50%;
+    height: 120px;
+    background-color: blue;
+    margin-right: 5px;
+    border: 3px solid #9ECACC;
+
+}
+
+.work-sample-four {
+    width: 50%;
+    height: 120px;
+    background-color: blue;
+    margin-left: 5px;
+    border: 3px solid #9ECACC;
+}
+
+.work-sample-description {
+    background-color: #9ECACC;
+    display: inline-block;
+    padding: 5px 8px;
+    position: relative;
+    top: 35%;
+    line-height: 1.5;
+}
+
+/* Footer "contact me" section */
+.contact-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    width: 75%;
+    margin-right: 50px;
+    padding-left: 26px;
+    padding-bottom: 10px;
+}
+
+.footer-container ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container ul li {
+    list-style: none;
+}
+
+.footer-container ul li a {
+    padding: 3px 3px;
+    font-weight: lighter;
+    font-size: 14px;
+    border-bottom: 3px solid #31343C;
+    text-decoration: none;
+}
 
